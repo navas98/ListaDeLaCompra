@@ -33,7 +33,7 @@ Este sistema forma parte de un proyecto más ambicioso de domotización del hoga
 
     El usuario abre la app y consulta su lista.
 
-    Pulsa el botón "Analizar imagen".
+    Pulsa el botón "Tomar imagen".
 
     Se envía una imagen predefinida al backend.
 
