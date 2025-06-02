@@ -7,10 +7,7 @@ import os
 # Configuración de Flask
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # CORS global para desarrollo
-comparacion = {
-    "detectados": ["Sandía", "Uvas", "Limón"],
-    "faltantes": ["Lima"]
-}
+
 
 # Middleware adicional para asegurar CORS en todas las respuestas
 @app.after_request
@@ -32,8 +29,7 @@ except Exception as e:
 # Cliente Roboflow
 try:
     ROBOFLOW_CLIENT = InferenceHTTPClient(
-        api_url="https://detect.roboflow.com",
-        api_key="QNvyTLvOXub3WhVvABIv"
+        api_url="https://detect.roboflow.com"
     )
     print("✅ Conexión exitosa con Roboflow")
 except Exception as e:
