@@ -13,7 +13,7 @@ Este sistema forma parte de un proyecto más ambicioso de domotización del hoga
 
     Visión artificial: Roboflow API + modelo YOLO (Food Image)
 
-    Otras herramientas: GitLab, Power BI, Azure Blob Storage, Microsoft Teams, Excalidraw
+
 
 📲 Funcionalidades principales
 
